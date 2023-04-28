@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flyers</title>
+    <style>
+     *{
+            margin: 0;
+            padding:  0;
+            box-sizing: border-box;
+        }
+        body {
+            overflow-y: hidden;
+        }
+         header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border-bottom: 1px solid lightskyblue;
+        }
+        nav {
+            display: flex;
+            font-size: 1em;
+        }
+        nav ul {
+            display: flex;
+            gap: 4rem;
+        }
+        li {
+            list-style: none;
+            padding-right: 10px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            /* background-color: blanchedalmond; */
+            height: 100vh;
+            gap: 15px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-left: 100px;
+            background-image: url("jude2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black
+        }
+        span {
+            color: white;
+            font-size: 25px;
+            font-family: cursive;
+        }
+        p {
+            color: white;
+            font-size: small;
+        }
+        h1 {
+            color: white;
+            font-size: 25px;
+            font-family: cursive;
+        } 
+        @media (max-width:700px){
+        nav ul {
+            display: none;
+        }   
+        section {
+            padding: 20px;
+            justify-content: center;
+            flex-direction: column;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="FAS.html"id="brand-name"><img src="drives.jpg" width="50px" height="auto"></a> 
+        <nav>
+        <ul>
+            <li><a href="web.html">WEB DESIGN</a></li>
+            <li><a href="ecommerce.html">ECOMMERCE DEVELOPMENT</a></li>
+            <li><a href="brand.html">BRANDING+DESIGN</a></li>
+            <li><a href="port.html">PORTFOLIO</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="cont.html"><button>CONTACT US</a></button></li>
+        </ul>  
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h1 style="color: goldenrod;">iWEBAPP<span>Ottawa Web Design Agency</span></h1> 
+            <h1> Full-service web solutions to help </h1>
+            <h1 style="box-shadow: 0px 1px goldenrod; width: 200px; font-size: 25px;">your business grow.</h1>
+            <p>Running your business has many challenges. Your website doesn't need to be one of them. Our </p><p> company develops lightening fast, Google-friendly and <b>professional websites</b>,designed to stand out from the</p><p> competition.Get ahead of 99% of business overlooking their website potential. custom web solution company</p><p>- iWEBAP. We specialise in <b>Wordpress web design and development </b>a Full-service<b> creative marketing and </b></p><p>branding agency</b>in Ottawa</p>
+            <button style="margin: 15px; justify-items: center; padding: 5px;">GET A FREE ESTIMATE</button>
+            <button style="background-color: goldenrod; color: white;justify-items: center; margin-left: 90px; padding:5px;">TALK TO AN AGENT</button>
+            <br>
+            <br>
+            <bottom style="background-color: white; color: goldenrod; margin: 30px; padding: 25px; justify-content: flex-end;">DIGITAL MARKETING THAT DRIVES RESULTS</footer>
+        </div>
+      </section>
+</body>
+</html>
